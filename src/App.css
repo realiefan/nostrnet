@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.embed-container {
+  display: none;
+  width: 130%;
+}
+
+
+.embed-container.active {
+  display: block;
+}
+
+.embed-iframe {
+  width: 100%;
+  height: calc(100vh - 100px);
+  border: none;
+  overflow: hidden;
+
+}
+
+
